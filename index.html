@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P2P Quantum Safe Messaging App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h1>Post-Quantum P2P Chat</h1>
+
+    <div class="your-id-container">
+	    <span>Your ID: </span>
+    	<input id="your-id" value="building..." disabled></input>
+	</div>
+
+	<hr>
+
+	<div id="connect-container">
+	    <input id="peer-id" placeholder="Enter Peer ID to connect" />
+	    <button id="connect-btn">Connect</button>
+	</div>
+
+    <hr>
+
+    <div id="message-container">
+		<ul id="messages"></ul>
+
+		<div class="msg-send-container">
+		    <input id="message-input" placeholder="Waiting for connection..." disabled/>
+		    <button id="send-btn">Send</button>
+		</div>
+	</div>
+
+  <script src="https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+input, button {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 2px;
+}
+
+.your-id-container {
+  display: flex;
+  gap: 10px; /* Adds spacing between the input and button */
+  margin-top: 10px; /* Adds space above the message container */
+  align-items: center;
+}
+
+.your-id-container input {
+  flex: 1; /* Input takes up the remaining space */
+  border: none;
+  color: black;
+}
+
+#messages {
+  list-style: none;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc; /* Adds border */
+  border-radius: 5px;
+  height: 300px; /* Fixed height */
+  overflow-y: auto; /* Adds scroll if content exceeds height */
+  background-color: #f9f9f9; /* Light background for better visibility */
+}
+
+.msg-send-container {
+  display: flex;
+  gap: 10px; /* Adds spacing between the input and button */
+  margin-top: 10px; /* Adds space above the message container */
+}
+
+#message-input {
+  flex: 1; /* Input takes up the remaining space */
+  padding: 10px;
+}
+
+#send-btn {
+  padding: 10px;
+}
