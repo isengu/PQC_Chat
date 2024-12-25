@@ -14,8 +14,9 @@ This project is a secure messaging application designed to resist threats posed 
 
 ## Usage
 
-Launch the application on two devices or browsers, connect from one of them by providing the id of the other.
-Send and receive secure, encrypted messages!
+Launch the application on two devices or browsers, connect from one of them by providing the id of the other. Send and receive secure, encrypted messages!
+
+Try Here: https://isengu.github.io/PQC_Chat/
 
 ## Technical Details
 
